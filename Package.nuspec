@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Data.Warehouse</id>
+    <version>1.0.8</version>
+    <authors>Marcel Schneider</authors>
+    <owners>Marcel Schneider</owners>
+    <projectUrl>https://github.com/LegendOfGIT/Nuget-Repository/tree/master/Data.Warehouse/src/Data.Warehouse</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Stellt den Zugriff auf ein Data-Warehouse bereit</description>
+    <releaseNotes>
+		1.0.4:
+		- Die Extension-Funktion PrepareInformation() typisiert nun die gefundenen Zeichenketten in passende Datentypen
+		1.0.4:
+		- Die Vorbereitung der zu speichernden Informationen geschieht nun über die Extension PrepareInformation()
+		1.0.3:
+		- Die ID eines Informationsdictionary, kann nun mit einer Extension ermittelt werden.
+		1.0.2:
+		- Erkennungsmuster für die Informationsid erweitert.
+	</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>DataWarehouse Warehouse Information BigData Access</tags>
+    <dependencies>
+      <dependency id="Data.Mining" version="1.0.2" />
+      <dependency id="Data.Web" version="1.0.2" />
+    </dependencies>
+  </metadata>
+</package>
