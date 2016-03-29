@@ -21,7 +21,7 @@
     <copyright>Copyright 2015</copyright>
     <tags>DataWarehouse Warehouse Information BigData Access</tags>
     <dependencies>
-      <dependency id="Data.Mining" version="1.0.2" />
+      <dependency id="Data.Mining" version="1.0.3" />
       <dependency id="Data.Web" version="1.0.3" />
     </dependencies>
   </metadata>
